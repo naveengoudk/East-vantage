@@ -35,12 +35,12 @@ def retrieve_address(skip : int = 0 , limit : int = 100 , db : Session = Depends
 def add_new_address(address : schema.addAddress , db : Session = Depends(get_db)):
      return routes.add_Address_to_db( db = db, address = address)
 
-# DELETE request for addresses
+# DELETE request for addresses by id 
 @app.delete('/delete_address_by_id/{id}')
 def delete_address_by_id(id: int , db : Session = Depends(get_db)):
     return routes.delete_movie_details_by_id( db = db, id = id)   
 
-# PUT request for addresses
+# PUT request for addresses by id
 @app.put('/update_address_details/{id}', response_model=schema.addAddress)
 def update_address_details(id: int , details : schema.addAddress , db : Session = Depends(get_db)):
     return routes.update_movie_details( db = db, details = details , id = id)
