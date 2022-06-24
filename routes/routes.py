@@ -3,7 +3,7 @@ from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from models import models
 from schema import schema
-from distance import distance
+from calculateDistance import distance
 
 
 # coordinates are valid if -90 <= latitude <=90 and -180 <= longitude <= 180
