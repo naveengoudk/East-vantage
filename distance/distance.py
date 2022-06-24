@@ -1,4 +1,6 @@
 from math import radians, cos, sin, asin, sqrt
+
+# function to calculate distance between two pairs of coordinates
 def distance(lat1, lat2, lon1, lon2):
 	
 	lon1 = radians(lon1)
