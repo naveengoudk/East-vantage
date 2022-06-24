@@ -2,6 +2,7 @@ from sqlalchemy import  Column, Float, Integer, String
 from config.database import Base
 
 
+# defining the table and coloums 
 class AddressBook(Base):
     __tablename__ = "addressbook"
 
