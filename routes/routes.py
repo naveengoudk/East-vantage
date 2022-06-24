@@ -38,6 +38,7 @@ def add_Address_to_db(db, address):
 
 # function for updating address by id in database
 def update_movie_details(db: Session, id: int, details: schema.Address):
+    # get address by id from path variable
     address = get_address_by_id(id = id , db = db)
     #rasing exception if id is not found in database
     if not address:
@@ -54,6 +55,7 @@ def update_movie_details(db: Session, id: int, details: schema.Address):
 
 # function for deleting address by id in database
 def delete_movie_details_by_id(db: Session, id: int):
+    # get address by id from path variable
     address = get_address_by_id( id = id,db = db)
     #rasing exception if id is not found in database
     if not address:
