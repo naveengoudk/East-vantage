@@ -18,3 +18,6 @@ To start or run the project:
 => Next start the server by using the command "uvicorn main:app --reload" . Here main is the name of main file , app is the name of instance of fastapi created in 
    main file and --reload is using so that server restarts automatically for any changes
 => Now open the localhost:8000/docs on your browser and you should see the CRUD operation ..Try them out play with it  
+
+
+Project done by Naveen goud k
