@@ -1,0 +1,20 @@
+INFO:root:Logging started
+INFO:uvicorn.error:Started server process [15552]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:Getting all addresses
+INFO:root:validating coordinates
+INFO:root:Address added to database
+INFO:root:Getting all addresses
+INFO:root:Getting address by id
+INFO:root:Address not found
+INFO:root:Getting address by id
+INFO:root:Address deleted
+INFO:root:Getting address by id
+INFO:root:validating coordinates
+INFO:root:Address updated
+INFO:root:Logging started
+INFO:uvicorn.error:Started server process [8324]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:Getting all addresses
